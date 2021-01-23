@@ -2,7 +2,7 @@
 
 Tokens explorer features are available as an API
 
-## API Endpoint
+## API Endpoint
 
 API Endpoint: https://tokens.nyzo.today/api  
 Called by a simple get request with parameters in the URLl, returns Json.
@@ -17,7 +17,7 @@ ex: `https://tokens.nyzo.today/api/tokens_list`
 /balances/{address}  
 All tokens owned by address with their balance
 
-### Rich list
+### Rich list
 /richlist/{token_name}  
 All current owners of that token and associated balance, sorted by amount desc
 

@@ -13,7 +13,7 @@ As per core Nyzo rules, a newly created address has to hold at least 10 Nyzos. T
 The same address (`id__?????` or raw `00000...0000`) is a Nyzo account and can be used for Nyzo main currency as for tokens.  
 The Nyzo balance is handled by the core consensus and balances, while the Tokens balances are handled by the Nytro protocol.
 
-***tl;dr:** If you already have a Nyzo address, this can be used right away as a Nyzo Token address as well.
+**tl;dr:** If you already have a Nyzo address, this can be used right away as a Nyzo Token address as well.
 
 ## Test drive the tokens
 

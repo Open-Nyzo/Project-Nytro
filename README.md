@@ -8,7 +8,7 @@ Nyzo is a unique blockchain with unique features, based upon a cycle relying on 
 
 Its architecture brings some strong guarantees vs usual blockchains.
 
-Read more at
+Read more at:  
 https://nyzo.co  
 https://nyzo.io  
 https://nyzo.net
@@ -31,19 +31,19 @@ It came with a full featured Tokens explorer, Online Helpers, APIs, Faucet and a
 
 More than expected, a full ecosystem from day One! 
 
-## The Nytro protocol 
+## The Nytro protocol 
 
 We designed the protocol to be as simple as possible, while maximizing the possible use cases and compatibility.  
 While not using smart contract language, we kept most of the ERC-20 features.
 
-- See doc/nytro_protocol.pdf for the most complete reference doc, mainly targetted toward developers.  
-- See doc/quickstart.md if you want to use tokens right away  
-- see doc/token_types.md for the 2 main token types and their possible uses.  
-- see doc/nytro_enabled.md for the current list of Nytro Enabled tools and services.  
-- see doc/reserved_tokens.md for the reserved tokens and the reason why.  
-- see doc/nyzo_today_api.md for an easy to use API.  
+- See https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/nytro_protocol.pdf for the most complete reference doc, mainly targeting developers.  
+- See https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/quickstart.md if you want to use tokens right away  
+- see https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/token_types.md for the 2 main token types and their possible uses.  
+- see https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/nytro_enabled.md for the current list of Nytro Enabled tools and services.  
+- see https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/reserved_tokens.md for the reserved tokens and the reason why.  
+- see https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/nyzo_today_api.md for an easy to use API.  
 
-The doc/ directory will also grow with more info. 
+The https://github.com/Open-Nyzo/Project-Nytro/tree/main/doc directory will also grow with more info. 
 
 ## Integration
 
