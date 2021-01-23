@@ -1,0 +1,48 @@
+{
+"TI": "Token issuance",
+"TI_R0": "Sender data does not have the required 4 segments. Missing data, too long data, missing or extra ':' char.",
+"TI_R1a": "Token name does not follow the rules. Only uppercase, A to Z, 0 to 9 and _ chars are allowed. Min 3 chars.",
+"TI_R1b": "Token name should not already exist.",
+"TI_R2a": "Decimals have to obey the format rules: dnn with n=0..9",
+"TI_R2b": "Decimals have to be less than or equal to 18.",
+"TI_R3a": "Supply does not obey the required format. Only 0..9 and decimal dot are allowed.",
+"TI_R3b": "Supply has more decimals than 'decimals' allow",
+"TI_R3c": "Supply is <= 0",
+"TI_R3a TI_R3b TI_R3c": "Supply does not obey the required format. Only 0..9 and decimal dot are allowed, not too many decimals, >= 0 or -1.",
+"TI_R4a": "Recipient has to be the Cycle address",
+"TI_R4b": "Nyzo amount for token issuance has to be at least ISSUE_FEES Nyzos.",
+
+"TT": "Token(s) balance transfer",
+"TT_R0": "Sender data does not have the required 3 segments. Missing data, too long data, missing or extra ':' char.",
+"TT_R1a": "Token name does not follow the rules. Only uppercase, A to Z, 0 to 9 and _ chars are allowed. Min 3 chars.",
+"TT_R2a": "Token Amount does not obey the required format. Only 0..9 and decimal dot are allowed.",
+"TT_R2b": "Token Amount has more decimals than this token 'decimals' allow",
+"TT_R2c": "Token Amount is <= 0 or higher than the sender's balance for this token.",
+
+"TM": "Token Mint",
+"TM_R0": "Sender data does not have the required 3 segments. Missing data, too long data, missing or extra ':' char.",
+"TM_R1a": "Token name does not follow the rules. Only uppercase, A to Z, 0 to 9 and _ chars are allowed. Min 3 chars.",
+"TM_R1b": "Sender address is not the current token Owner",
+"TM_R1c": "This token is not a mintable token.",
+"TM_R2a": "Token Amount does not obey the required format. Only 0..9 and decimal dot are allowed.",
+"TM_R2b": "Token Amount has more decimals than this token 'decimals' allow",
+"TM_R2c": "Token Amount is <= 0.",
+"TM_R3a": "Recipient has to be the Cycle address",
+"TM_R3b": "Nyzo amount for token minting has to be at least MINT_FEES Nyzos.",
+
+"TB": "Token Burn",
+"TB_R0": "Sender data does not have the required 3 segments. Missing data, too long data, missing or extra ':' char.",
+"TB_R1a": "Token name does not follow the rules. Only uppercase, A to Z, 0 to 9 and _ chars are allowed. Min 3 chars.",
+"TB_R1b": "This token is not a mintable token.",
+"TB_R2a": "Token Amount does not obey the required format. Only 0..9 and decimal dot are allowed.",
+"TB_R2b": "Token Amount has more decimals than this token 'decimals' allow",
+"TB_R2c": "Token Amount is <= 0 or higher than the sender's balance for this token.",
+"TB_R3": "Recipient has to be the Cycle address",
+
+"TO": "Token Ownership transfer",
+"TO_R0": "Sender data does not have the required 2 segments. Missing data, too long data, missing or extra ':' char.",
+"TO_R1a": "Token name does not follow the rules. Only uppercase, A to Z, 0 to 9 and _ chars are allowed. Min 3 chars.",
+"TO_R1b": "This token is not a mintable token.",
+"TO_R2": "Sender address is not the current token Owner"
+
+}
