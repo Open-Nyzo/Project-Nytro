@@ -5,7 +5,7 @@ The Nytro protocol does support two different kind of tokens, for different use 
 Make sure to define what you will use them for, since all issuances are final: There can be no fix if you made an error or change your mind.
 
 **REPEAT**: All tokens issuance, name, supply, decimals are **FINAL**. Think twice before you issue a token.
-Nyzo tokens are for life. 
+Nyzo tokens are for all eternity. 
 
 Don't issue critical names just for fun, with no use case in mind: They would be useless and valueless if they are of the wrong type for instance...
 
@@ -70,3 +70,67 @@ This ownership can be transfered to anyone for free.
 - TO: Token Ownership change  
   Transfers ownership (mint rights) to the recipient.
   
+
+## NFT Tokens
+
+NFT Tokens will be available once Nytro v2 has activated. Further info will follow.
+
+NFT are "classes" of tokens - sharing common properties - from whom you can mint individual NFT, with their own properties as well.  
+They can have limited or unlimited max supply.  
+
+NFT names are recognizable from their name, beginning with a lowercap n.
+
+Ex: `nNFT` is a NFT class  
+`nNFT:824fg6` is a unique, non fungible instance of the `nNFT` class.
+
+### NFT Properties
+
+A given NFT instance can have 3 kind of stored properties
+
+- Class properties, defined by the current NFT class owner, that apply to all instances of that class
+- individual NFT properties, defined by the current NFT class owner, that apply to a single instance only
+- individual NFT properties, defined by the current NFT owner, that apply to a single instance only
+
+### NFT Tokens supported operations:
+
+> This is an overview only. The full specs will define these operations precisely.
+
+- NI: NFT Class issuance    
+  Initial definition of a NFT class, with an optional maximal supply.  
+  The issuer becomes the class Owner (token mint and admin data rights on that class).
+  
+- NM: NFT Token Mint  
+  Current class owner can mint an instance of the class, defines the UID of that specific NFT.
+  
+- NT: NFT Transfer  
+  Transfer of a given NFT instance from sender to recipient, just like a regular token.
+ 
+- NO: NFT class Ownership change  
+  Transfers class ownership (mint and class properties rights) to the recipient.
+
+- NB: NFT Token Burn  
+  Destroys The given NFT.        
+  
+- NA: NFT Token Admin Data    
+  Adds owner protected data to an NFT class or a given NFT     
+  
+- ND: NFT Token User Data    
+  Adds user data to a given NFT. Only available to current NFT instance owner.  
+  
+ 
+### A note about NFT properties and data storage      
+
+Nyzo is **not** fit for large data storage.  
+Data field for a single transaction is 32 bytes max compared to 186 bytes of a transaction with empty data.  
+This means storing 32 data bytes really stores 186 + 32 = 218 bytes.  
+See http://tech.nyzo.co/dataFormats/transaction  
+Recipient address is 32 bytes as well, and can be used in some cases, see protocol detail.
+
+Encoding of the payloads into these 32 bytes is left to every app dev.   
+We will provide some examples as guidelines only.  
+We urge you not to abuse the system with many transactions for larger payloads. This would be a significant waste of resource, and go against Nyzo aim for efficiency.
+
+If you need a large payload, the logic would be to use ipfs hash for instance.   
+Since a sha256 ipfs hash is 32 bytes, it can go into a single transaction data, and hold larger data in a ipfs hosted json for instance.
+
+A Nyzo specific distributed data storage service could emerge later on.

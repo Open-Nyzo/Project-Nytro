@@ -5,7 +5,7 @@ Tokens explorer features are available as an API
 ## API Endpoint
 
 API Endpoint: https://tokens.nyzo.today/api  
-Called by a simple get request with parameters in the URLl, returns Json.
+Called by a simple get request with parameters in the URL, returns Json.
 
 ### Tokens list
 /tokens_list  
