@@ -53,7 +53,7 @@ We will happily reference alternate implementations.
 
 Test vectors are also provided, see /test_vectors.
 
-## Changelog
+## Changelog
 
 V1.1 - 2021-06-30 - Limit Max len of token name to 10 chars, add optional comment to somme commands, allow burn to any Nyzo address.
 
