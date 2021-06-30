@@ -5,6 +5,8 @@ Nyzo tokens are managed via carefully crafted regular Nyzo transactions, obeying
 You can use Nytro enabled clients and tools to handle them in a safe way.    
 See nytro_enabled.md for current list.
 
+Current version of the protocol - since June 30, 2021 - is v1.1
+
 ## Wallet and address
 
 A regular Nyzo address is all you need to receive and handle Nyzo tokens.  

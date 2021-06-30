@@ -2,6 +2,8 @@
 
 The "Token" class takes regular Nyzo transactions as input, validates them, updates the tokens states, and stores everything in a SQL database.
 
+**To be updated with Protocol version 1.1** 
+
 ## 1. Test Setup
 
 - rename `tokens_db_config.sample.json` to `tokens_db_config.json` and edit to point to your sql instance, user and database  

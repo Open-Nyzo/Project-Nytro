@@ -53,6 +53,14 @@ We will happily reference alternate implementations.
 
 Test vectors are also provided, see /test_vectors.
 
+## Changelog
+
+V1.1 - 2021-06-30 - Limit Max len of token name to 10 chars, add optional comment to somme commands, allow burn to any Nyzo address.
+
+Draft - 2020-06-10 - NFTs Draft
+ 
+V1.0 - 2020-12-23 - Initial release
+
 ## FAQs
 
 The FAQ section will be created and updated with user questions.    
