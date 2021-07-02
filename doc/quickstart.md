@@ -5,7 +5,8 @@ Nyzo tokens are managed via carefully crafted regular Nyzo transactions, obeying
 You can use Nytro enabled clients and tools to handle them in a safe way.    
 See nytro_enabled.md for current list.
 
-Current version of the protocol - since June 30, 2021 - is v1.1
+Current version of the Tokens protocol - since June 30, 2021 - is v1.1  
+NFT upgraded protocol - v2.0 - has been released on July 2, 2010 and has its own reference, but no implementation yet. 
 
 ## Wallet and address
 

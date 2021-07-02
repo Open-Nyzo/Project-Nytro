@@ -37,6 +37,7 @@ We designed the protocol to be as simple as possible, while maximizing the possi
 While not using smart contract language, we kept most of the ERC-20 features.
 
 - See https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/nytro_protocol.pdf for the most complete reference doc, mainly targeting developers.  
+- **New:** See https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/nft_protocol_v20.pdf for the NFT complete reference doc, mainly targeting developers.  
 - See https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/quickstart.md if you want to use tokens right away  
 - see https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/token_types.md for the 2 main token types and their possible uses.  
 - see https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/nytro_enabled.md for the current list of Nytro Enabled tools and services.  
@@ -54,6 +55,8 @@ We will happily reference alternate implementations.
 Test vectors are also provided, see /test_vectors.
 
 ## Changelog
+
+V2.0 - 2021-07-02 - NFT Protocol document, First Version released
 
 V1.1 - 2021-06-30 - Limit Max len of token name to 10 chars, add optional comment to somme commands, allow burn to any Nyzo address.
 
