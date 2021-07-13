@@ -6,7 +6,9 @@ You can use Nytro enabled clients and tools to handle them in a safe way.
 See nytro_enabled.md for current list.
 
 Current version of the Tokens protocol - since June 30, 2021 - is v1.1  
-NFT upgraded protocol - v2.0 - has been released on July 2, 2010 and has its own reference, but no implementation yet. 
+NFT upgraded protocol - v2.0 - has been released on July 2, 2021 and has its own reference, but no implementation yet.
+NFT protocol v2.01 - Released July 13, 2021 - Is the initial release of the final NFT Protocol, with fully working explorer and helpers.  
+See nft-protocol_v21.pdf
 
 ## Wallet and address
 

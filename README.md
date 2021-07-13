@@ -13,7 +13,7 @@ https://nyzo.co
 https://nyzo.io  
 https://nyzo.net
 
-## Tokens on Nyzo
+## Tokens and NFTs on Nyzo
 
 Nyzo does not come with embedded smart contract - and may not need their overhead.   
 However, it has a convenient "data" field that can be used for anything.
@@ -55,6 +55,9 @@ We will happily reference alternate implementations.
 Test vectors are also provided, see /test_vectors.
 
 ## Changelog
+
+V2.1 - 2021-07-13 - NFT Protocol document, Release v2.01 - Update to helpers and initial fees.  
+NFT Class issuance fee is set as 300 Nyzo.
 
 V2.0 - 2021-07-02 - NFT Protocol document, First Version released
 

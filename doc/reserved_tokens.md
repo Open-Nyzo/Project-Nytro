@@ -16,6 +16,9 @@ They are meant to avoid cybersquatting and be handed over to a serious actor wil
 - NYZO was issued as a mintable token, 6 decimals.  
   This is to avoid confusion between Nyzo (the main currency) and NYZO token and will not be used.  
   Ownership will be transferred after cycle vote if a future use case needs it.
+  
+- nYZO NFT Class was reserved as an infinite supply NFT, to avoid confusion with Nyzo and cybersquatting.  
+- nNYZO NFT class was reserved as an infinite supply NFT, to avoid confusion with Nyzo and cybersquatting.
 
 ## Test Tokens
   
@@ -28,3 +31,5 @@ They are defined as mintable tokens as well, and will serve as test tokens for a
 A faucet will provide them for free.
 
 Https://tokens.nyzo.today/faucet/
+
+- nDEMO NFT class has been reserved as infinite supply NFT to be used as Demo, playfield and future NFT faucet.
