@@ -46,15 +46,23 @@ While not using smart contract language, we kept most of the ERC-20 features.
 
 The https://github.com/Open-Nyzo/Project-Nytro/tree/main/doc directory will also grow with more info. 
 
+## Explorer
+
+A Token and NFT explorer is available at https://tokens.nyzo.today/
+
 ## Integration
 
 We are willing to help anyone willing to integrate the Nytro protocol.   
 See implementations/tokens for a reference Python implementation and test tool.  
 We will happily reference alternate implementations.   
 
+**A Nyzo.Today API is available**, see https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/nyzo_today_api.md
+
 Test vectors are also provided, see /test_vectors.
 
 ## Changelog
+
+V2.1 - 2021-07-25 - Update to Nyzo.today API doc, API now supporting NFT specific endpoints.
 
 V2.1 - 2021-07-13 - NFT Protocol document, Release v2.01 - Update to helpers and initial fees.  
 NFT Class issuance fee is set as 300 Nyzo.
