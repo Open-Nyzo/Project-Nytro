@@ -56,15 +56,20 @@ We are willing to help anyone willing to integrate the Nytro protocol.
 See implementations/tokens for a reference Python implementation and test tool.  
 We will happily reference alternate implementations.   
 
+See https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/nytro-nft-data-storage.pdf for recommended guidelines.    
+These are not part of the protocol and not enforced, but following them will make sure all usages are consistent, allow for easier interoperability, and allow your NFTs to be visible on upcoming marketplaces.
+
 **A Nyzo.Today API is available**, see https://github.com/Open-Nyzo/Project-Nytro/blob/main/doc/nyzo_today_api.md
 
 Test vectors are also provided, see /test_vectors.
 
 ## Changelog
 
-V2.1 - 2021-07-25 - Update to Nyzo.today API doc, API now supporting NFT specific endpoints.
+V2.02 - 2021-07-25 - Update to Nyzo.today API doc in reference PDF, Added NFT Data storage guidelines.
 
-V2.1 - 2021-07-13 - NFT Protocol document, Release v2.01 - Update to helpers and initial fees.  
+V2.01 - 2021-07-25 - Update to Nyzo.today API doc, API now supporting NFT specific endpoints.
+
+V2.01 - 2021-07-13 - NFT Protocol document, Release v2.01 - Update to helpers and initial fees.  
 NFT Class issuance fee is set as 300 Nyzo.
 
 V2.0 - 2021-07-02 - NFT Protocol document, First Version released
